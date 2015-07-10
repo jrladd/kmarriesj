@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #33CC33;
+a         { color: #145314;
 	    text-decoration: none; }
 a:hover   { color: #000; 
 	    text-decoration: none;}
@@ -88,9 +88,9 @@ a:visited { color: #aaa;
 }
 
 .title a {
-  font-family: 'Courier New', monospace;
+  font-family: 'Parisienne', cursive;
   color: #145314;
-  font-size: 120%
+  font-size: 1000%
 }
 
 .title a:hover {
