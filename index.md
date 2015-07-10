@@ -15,3 +15,5 @@ Sincerely,
 <div id="cat" style="display:none;">
 ![Cardigan, a cat.](/kmarriesj/images/cat.jpg "This is the cat. We think he's quite nice.")
 </div>
+
+![Cardigan, a cat.](/kmarriesj/images/cat.jpg "This is the cat. We think he's quite nice.")
