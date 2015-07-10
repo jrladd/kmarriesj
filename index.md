@@ -13,7 +13,5 @@ Sincerely,
 <div id="location" style="display:none;">It's in New Orleans</div>
 
 <div id="cat" style="display:none;">
-![Cardigan, a cat.](/kmarriesj/images/cat.jpg "This is the cat. We think he's quite nice.")
+<img src="/kmarriesj/images/cat.jpg" alt="Cardigan, a cat." title="This is the cat. We think he's quite nice.">
 </div>
-
-![Cardigan, a cat.](/kmarriesj/images/cat.jpg "This is the cat. We think he's quite nice.")
