@@ -66,14 +66,17 @@ a:visited { color: #aaa;
 /*
 /*****************************************************************************/
 
+.transpbox {
+  width: 42em;
+  margin: 3em auto 2em;
+  background-color: #FFF;
+  opacity: 0.6;
+}
+
 .site {
   font-size: 115%;
   text-align: center;
-  width: 42em;
-  margin: 3em auto 2em;
   line-height: 1.5em;
-  background-color: #FFF;
-  opacity: 0.6;
 }
 
 .header a {
