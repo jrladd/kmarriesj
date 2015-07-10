@@ -13,7 +13,7 @@
 html, body { height: 100%; }
 
 html { 
-  background: url(images/ginsburg.jpg) no-repeat center center fixed; 
+  background: url(http://jrladd.github.io/kmarriesj/images/ginsburg.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
