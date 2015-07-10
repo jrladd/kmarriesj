@@ -21,9 +21,6 @@ html {
 }
 
 body {
-  background-color: #FFF;
-  opacity: 0.6
-  margin: 20%
   font: 13.34px 'Courier New', monospace;
   font-size: medium;
   text-align: center;
@@ -75,6 +72,9 @@ a:visited { color: #aaa;
   width: 42em;
   margin: 3em auto 2em;
   line-height: 1.5em;
+  background-color: #FFF;
+  opacity: 0.6
+  margin: 20%
 }
 
 .header a {
