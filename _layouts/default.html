@@ -17,7 +17,17 @@
 
 	<!-- Parisienne webfont -->
 	<link href='http://fonts.googleapis.com/css?family=Parisienne' rel='stylesheet' type='text/css'>
-	
+	<script type="text/javascript">
+      function toggle_visibility(id) {
+      var e = document.getElementById(id);
+      if(e.style.display == 'block')
+        e.style.display = 'none';
+      else
+        e.style.display = 'block';
+      }
+    </script>
+<a href="#" >if you click here, #foo will change visibility</a>
+<div id="foo">blablabla</div>
     </head>
     <body>
 
@@ -25,10 +35,9 @@
           <div class="header">
             <h1 class="title"><a href="/kmarriesj">K & J</a></h1><br/>          
             {{ content }}
-	    	<a href="javascript:;" onClick="document.getElementById('about').style.display='block';">about</a>
-            <a href="javascript:;" onClick="document.getElementById('location').style.display='block';">location</a>
-            <a href="javascript:;" onClick="document.getElementById('cat').style.display='block';">cat</a>
-            <a href="javascript:;" onClick="document.getElementById('cat').style.display='none';" " onClick="document.getElementById('about').style.display='none';" " onClick="document.getElementById('location').style.display='none';">clear</a>
+	    	<a href="#" onclick="toggle_visibility('about');">about</a>
+	    	<a href="#" onclick="toggle_visibility('location');">location</a>
+	    	<a href="#" onclick="toggle_visibility('cat');">cat</a>
           </div>
 
           <div id="about" style="display:none;">We're John and Katie</div>
