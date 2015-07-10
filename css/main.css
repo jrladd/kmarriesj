@@ -80,6 +80,7 @@ a:visited { color: #aaa;
   font-family: 'Parisienne', cursive;
   font-weight: bold;
   text-decoration: none;
+  width: 84em;
 }
 
 .title {
