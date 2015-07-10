@@ -73,11 +73,11 @@ a:visited { color: #aaa;
   margin: 3em auto 2em;
   line-height: 1.5em;
   background-color: #FFF;
-  opacity: 0.9;
+  opacity: 0.95;
 }
 
 .header a {
-  font-family: 'Courier New', monospace;
+  font-family: 'Parisienne', cursive;
   font-weight: bold;
   text-decoration: none;
 }
@@ -89,7 +89,7 @@ a:visited { color: #aaa;
 
 .title a {
   font-family: 'Courier New', monospace;
-  color: #33CC33;
+  color: #145314;
   font-size: 120%
 }
 
@@ -124,7 +124,7 @@ a:visited { color: #aaa;
 }
 
 .footer .contact a {
-  color: #33CC33;
+  color: #145314;
 }
 
 .footer .rss {
