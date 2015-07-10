@@ -13,7 +13,7 @@
 html, body { height: 100%; }
 
 html { 
-  background: url(http://jrladd.github.io/kmarriesj/images/ginsburg.jpg) no-repeat center center fixed; 
+  background: url(http://jrladd.github.io/kmarriesj/images/damask.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -40,18 +40,6 @@ a:hover   { color: #000;
 a:visited { color: #aaa; 
 	    text-decoration: none;}
 	    
-.network {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.node {
-  stroke: #fff;
-  stroke-width: 1.5px;
-}
-
-.link {
-  stroke: #999;
-  stroke-opacity: .6;
-}
 
 /*****************************************************************************/
 /*
