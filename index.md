@@ -12,4 +12,6 @@ Sincerely,
 <div id="about" style="display:none;">We're John and Katie</div>
 <div id="location" style="display:none;">It's in New Orleans</div>
 
-[About Us](http://jrladd.github.io/kmarriesj/about)
+<div id="location" style="display:none;">
+![Cardigan, a cat.](/kmarriesj/images/cat.jpg "This is the cat. We think he's quite nice.")
+</div>
