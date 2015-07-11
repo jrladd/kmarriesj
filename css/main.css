@@ -121,7 +121,7 @@ a:visited { color: #D9B32A;
 }
 
 .footer .contact {
-  float: left;
+  float: center;
   margin-right: 3em;
 }
 
