@@ -34,9 +34,9 @@ p { margin: 1em 0; }
 
 a         { color: #D9B32A;
 	    text-decoration: none; }
-a:hover   { color: #D9B32A; 
+a:hover   { color: #000; 
 	    text-decoration: none;}
-a:visited { color: #aaa; 
+a:visited { color: #D9B32A; 
 	    text-decoration: none;}
 	    
 
