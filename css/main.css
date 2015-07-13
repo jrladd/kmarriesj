@@ -13,13 +13,19 @@
 html, body { height: 100%; }
 
 html { 
-
+  background: url(http://jrladd.github.io/kmarriesj/images/sanderson.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover !important;
+  overflow-y: hidden;
 }
 
 body {
   font: 13.34px 'Courier New', monospace;
   font-size: medium;
   text-align: center;
+  overflow-y: scroll;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -144,11 +150,6 @@ a:visited { color: #D9B32A;
 #auden {
 	text-align: left;
 	margin: 30px;
-	  background: url(http://jrladd.github.io/kmarriesj/images/sanderson.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover !important;
 }
 
 .footer {
