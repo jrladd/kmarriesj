@@ -13,17 +13,12 @@
 html, body { height: 100%; }
 
 html { 
+  background-color: transparent !important;
   background: url(http://jrladd.github.io/kmarriesj/images/sanderson.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-}
-
-@media only screen and (max-width: 767px) {
-  html {
-    background-image: url(http://jrladd.github.io/kmarriesj/images/sanderson.jpg) repeat;
-  }
+  background-size: cover !important;
 }
 
 body {
