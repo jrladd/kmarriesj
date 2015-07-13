@@ -13,7 +13,6 @@
 html, body { height: 100%; }
 
 html { 
-  background-color: transparent !important;
   background: url(http://jrladd.github.io/kmarriesj/images/sanderson.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
