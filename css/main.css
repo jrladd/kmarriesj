@@ -152,6 +152,6 @@ a:visited { color: #D9B32A;
 	.header a:before {
 		content:    ‘\a’ ;
 		white-space:    pre ;
-		font-size: 100%
+		font-size: 100%;
 	}
 }
