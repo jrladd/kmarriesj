@@ -132,19 +132,19 @@ a:visited { color: #D9B32A;
     content: "";
     position: absolute;
     top: 50%;
-    width: 15em;
+    width: 25em;
     height: 2px;
     background: #9EAEB3;
 }
 
 .strike > span:before {
     right: 100%;
-    margin-right: 10%;
+    margin-right: 20%;
 }
 
 .strike > span:after {
     left: 100%;
-    margin-left: 10%;
+    margin-left: 20%;
 }
 
 #auden {
