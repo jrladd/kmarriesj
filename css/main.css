@@ -44,27 +44,7 @@ a:hover   { color: #000;
 a:visited { color: #D9B32A; 
 	    text-decoration: none;}
 
-	    
 
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
-.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
-}
-
-.posts li {
-  line-height: 1.75em;
-}
-
-.posts span {
-  color: #aaa;
-  font-family: 'Courier New', monospace;
-  font-size: 80%;
-}
 
 /*****************************************************************************/
 /*
@@ -135,7 +115,7 @@ a:visited { color: #D9B32A;
     content: "";
     position: absolute;
     top: 50%;
-    width: 25em;
+    width: 15em;
     height: 2px;
     background: #9EAEB3;
 }
@@ -164,45 +144,7 @@ a:visited { color: #D9B32A;
   float: center;
 }
 
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
+@media only screen and (max-device-width: 480px) {
 
-/* standard */
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
-}
-
-.post ul, .post ol {
-  margin-left: 1.35em;
-}
-
-.post blockquote {
-  margin-left: 1.35em;
-  color: #aaa;
-  font-size: 90%;
-}
-.post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
-}
-
-.post pre code {
-  border: none;
-}
-
-/* terminal */
-.post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
-}
-
-.post pre.terminal code {
-  background-color: #333;
-}
+	.pipe { display: none; }
+	}
