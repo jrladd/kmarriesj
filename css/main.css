@@ -154,4 +154,5 @@ a:visited { color: #D9B32A;
 	}
 	.title a { font-size: 500%; }
 	.content { display: none; }
+	.header { white-space: no-wrap; }
 }
