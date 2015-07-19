@@ -150,6 +150,7 @@ a:visited { color: #D9B32A;
 	.pipe { display: none; }
 	.header a { font-size: 150% }
 	.title a { font-size: 500% }
+	.content { display: none; }
 	.header a:before {
 		content:    ‘\a’ ;
 		white-space:    pre ;
