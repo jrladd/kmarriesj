@@ -85,6 +85,8 @@ a:visited { color: #D9B32A;
   text-decoration: none;
   font-size: 200%;
   display: inline;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .title {
