@@ -148,8 +148,8 @@ a:visited { color: #D9B32A;
 
 	.site { width: 90%; }
 	.pipe { display: none; }
+	.header a { font-size: 150% }
 	.title a { font-size: 500% }
-	.header a { font-size: 100% }
 	.header a:before {
 		content:    ‘\a’ ;
 		white-space:    pre ;
