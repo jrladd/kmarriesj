@@ -144,7 +144,7 @@ a:visited { color: #D9B32A;
   float: center;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 960px) {
 
 	.site { width: 90%; }
 	.pipe { display: none; }
@@ -152,7 +152,7 @@ a:visited { color: #D9B32A;
 		font-size: 150%;
 		display: block;
 	}
-	.title a { font-size: 500%; }
+	.title a { font-size: 400%; }
 	.content { display: none; }
 	.header { white-space: no-wrap; }
 }
