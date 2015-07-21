@@ -155,4 +155,5 @@ a:visited { color: #D9B32A;
 	.title a { font-size: 400%; }
 	.content { display: none; }
 	.header { white-space: no-wrap; }
+	#auden { font-size: 80%; }
 }
