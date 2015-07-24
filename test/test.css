@@ -4,5 +4,12 @@
 }
 
 body {
-	font-family: 'Futura';
+	font-family: 'Futura', sans-serif;
 }
+
+h1 {
+	font-family: 'Parisienne', cursive;
+	font-size: 200%;
+}
+
+.THEBIGONE { text-decoration: bold; }
