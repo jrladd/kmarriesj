@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Futura';
+  src: url('FUTURA.pfb');
+}
+
+body {
+	font-family: 'Futura', sans-serif;
+}
+
+h1 {
+	font-family: 'Parisienne', cursive;
+	font-size: 200%;
+}
+
+.THEBIGONE { font-weight: bold; }
