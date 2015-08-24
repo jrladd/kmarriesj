@@ -11,8 +11,8 @@
 }
 
 @font-face {
-  font-family: 'Futura Light';
-  src: url('FuturaLight.ttf');
+  font-family: 'Futura';
+  src: url('Futura-Book.ttf');
 }
 
 html, body { height: 100%; }
@@ -27,7 +27,7 @@ html {
 }
 
 body {
-  font: 13.34px 'Futura Light', sans-serif;
+  font: 13.34px 'Futura', sans-serif;
   font-size: medium;
   text-align: center;
   overflow-y: scroll;
