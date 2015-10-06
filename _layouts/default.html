@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
-
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
 
@@ -18,13 +18,21 @@
 	<!-- Parisienne webfont -->
 	<link href='http://fonts.googleapis.com/css?family=Parisienne' rel='stylesheet' type='text/css'>
 	<script type="text/javascript">
-      function toggle_visibility(id) {
-      var e = document.getElementById(id);
-      if(e.style.display == 'block')
-        e.style.display = 'none';
-      else
-        e.style.display = 'block';
-      }
+		$(document).ready( function() {
+			hideShow($('a.about'), $('div#about'));
+			hideShow($('a.location'), $('div#location'));
+			hideShow($('a.dt'), $('div#dt'));
+			hideShow($('a.transportation'), $('div#transportation'));
+			hideShow($('a.accommodations'), $('div#accommodations'));
+			hideShow($('a.registry'), $('div#registry'));
+			hideShow($('a.cat'), $('div#cat'));
+			hideShow($('a.auden'), $('div#auden'));
+		});
+      function hideShow($a, $d) {
+    		$a.click(function () {
+        		$d.slideToggle();
+    		});
+	   };
     </script>
     </head>
     <body>
@@ -37,14 +45,14 @@
               <span>&</span>
             </div>
 			<br/>
-	    	<a href="#" onclick="toggle_visibility('about');">about <span class='pipe'>|</span></a><wbr>
-	    	<a href="#" onclick="toggle_visibility('location');">location <span class='pipe'>|</span></a><wbr>
-	    	<a href="#" onclick="toggle_visibility('dt');">date & time <span class='pipe'>|</span></a><wbr>
-	    	<a href="#" onclick="toggle_visibility('transportation');">transportation <span class='pipe'>|</span></a><wbr>
-	    	<a href="#" onclick="toggle_visibility('accommodations');">accommodations <span class='pipe'>|</span></a><wbr>
-	    	<a href="#" onclick="toggle_visibility('registry');">registry <span class='pipe'>|</span></a><wbr>
-	    	<a href="#" onclick="toggle_visibility('cat');">cat <span class='pipe'>|</span></a><wbr>
-	    	<a href="#" onclick="toggle_visibility('auden');">auden</a>
+	    	<a href="#" class='about'>about <span class='pipe'>|</span></a><wbr>
+	    	<a href="#" class='location'>location <span class='pipe'>|</span></a><wbr>
+	    	<a href="#" class='dt'>date & time <span class='pipe'>|</span></a><wbr>
+	    	<a href="#" class='transportation'>transportation <span class='pipe'>|</span></a><wbr>
+	    	<a href="#" class='accommodations'>accommodations <span class='pipe'>|</span></a><wbr>
+	    	<a href="#" class='registry'>registry <span class='pipe'>|</span></a><wbr>
+	    	<a href="#" class='cat'>cat <span class='pipe'>|</span></a><wbr>
+	    	<a href="#" class='auden'>auden</a>
           </div>
 
           <div id="about" style="display:none;"><p>We're John and Katie. We think you're great. That's why we've invited you to the wedding. <br/>Click above to make more information appear. Click again to make it disappear. It's as easy as that. <br/>See you in New Orleans!</p>
@@ -77,7 +85,7 @@
           </div>
           <div id="accommodations" style="display:none;">
           <p>HOST HOTEL: <a href='http://www.qandc.com/'>Q & C Hotel/Bar</a>, Downtown NOLA</p>
-<p>A block of rooms has been reserved for guests at the Q & C Hotel. <br/>To make a reservation, call 866-247-7936 and ask for the Collins-Ladd rate. <br/>($199/night for a standard king room, $219/night for a standard queen/queen room [2 beds]) <br/>Reservations must be made by 5pm central time on 2-26-2016 to qualify for the special guest rate.</p>
+<p>A block of rooms has been reserved for guests at the Q & C Hotel. <br/>To make a reservation, call 866-247-7936 and ask for the Collins-Ladd rate. <br/>($199/night for a standard king room, $219/night for a standard queen/queen room [2 beds]) <br/>Reservations must be made by 5pm central time on 2-26-2016 to qualify for the special guest rate. If you're not currently on a mobile device, you can <a href='https://gc.synxis.com/rez.aspx?Hotel=61552&Chain=15198&template=QandC&arrive=3/17/2016&depart=3/21/2016&adult=1&child=0&group=Collins/Ladd'>click here</a> to sign up for the group rate online.</p>
 
 <p>Q & C Hotel/Bar<br/>
 344 Camp Street<br/>
